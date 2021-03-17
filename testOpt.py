@@ -8,7 +8,7 @@ Created on Fri Mar 12 11:01:20 2021
 
 from tme4Opt import *
 import time
-files = ["amazon.txt", "livejournal.txt"]
+files = ["amazon.txt"]
 for f in files:
     start = time.time()
     g = Graph(f)

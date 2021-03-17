@@ -183,6 +183,8 @@ class KCore:
                 self.nodes[temp.idn] = temp
             if(c>self.coreValue):
                 self.coreValue = c
+            if(i%10000==0):
+                print(i)
     def getStats(self):
         print("core value of the graph: " + str(self.coreValue))
         x = []
